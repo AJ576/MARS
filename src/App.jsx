@@ -9,7 +9,7 @@ function App() {
   const[name,setname] = useState()
   const[cam,setCam] = useState()
   const[day,setDay] = useState()
-
+  
   const rovers = [["spirit",500],["opportunity",3500],["curiosity",3500],["perseverance",900]]
   const camera = [["FHAZ","RHAZ","NAVCAM","PANCAM"],["FHAZ","RHAZ","NAVCAM","PANCAM"],["FHAZ","RHAZ","NAVCAM","MAST","MARDI"],["FRONT_HAZCAM_LEFT_A","FRONT_HAZCAM_RIGHT_A","REAR_HAZCAM_LEFT","SKYCAM"]]
 
@@ -48,7 +48,7 @@ function App() {
     }
     catch
     {
-      let ReUrl = `https://api.nasa.gov/mars-photos/api/v1/rovers/${rovers[getRandomInt(rovers.length-1)][0]}/photos?sol=550&camera=NAVCAM&api_key=FTKqKIGVpBRXb018ZmsaJif8ws6jGD9XcEdB9qFb`
+      let ReUrl = `https://api.nasa.gov/mars-photos/api/v1/rovers/${rovers[getRandomInt(rovers.length-1)][0]}/photos?sol=550&camera=NAVCAM&api_key=${KEY}`
       console.log("wow an error")
       console.log(ReUrl)
       response = await axios.get(ReUrl)
