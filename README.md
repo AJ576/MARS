@@ -4,7 +4,7 @@ Submitted by: **Aditya Jha**
 
 This web app: **allows the user to enjoy a new image from mars with every. Don't like photos by a certain rover or camera? Remove those images from futrure results!**
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
@@ -14,12 +14,12 @@ The following **required** functionality is completed:
 - [x] **Only one item/API call is viewable at a time**
 - [x] **API calls appear random to the user**
 - [x] **At least one image is displayed per API call**
-- [ ] **Clicking on a displayed value for one attribute adds it to a displayed ban list**
-- [ ] **Attributes on the ban list prevent further images/API results with that attribute from being displayed**
+- [x] **Clicking on a displayed value for one attribute adds it to a displayed ban list**
+- [x] **Attributes on the ban list prevent further images/API results with that attribute from being displayed**
 
 The following **optional** features are implemented:
 
-- [ ] Multiple types of attributes can be added to the ban list
+- [x] Multiple types of attributes can be added to the ban list
 - [ ] Users can see a stored history of their previously viewed items from their session
 
 The following **additional** features are implemented:
@@ -30,10 +30,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmF3eW9uaGM4MW93ejhoeWt6cW5wNGM1d25sODl4enAxbTllMHhuciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wsfzSyfxTQPuWqCAap/giphy.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -41,7 +41,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I had difficulties while making the banList function as I was having a hard time seperating the button calls from each other.
 
 ## License
 
