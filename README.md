@@ -1,4 +1,4 @@
-# Web Development Project 4 - *MARS MADNESS*
+# Web Development Project 4 - *MARS iMAGES*
 
 Submitted by: **Aditya Jha**
 
